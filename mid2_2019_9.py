@@ -4,7 +4,6 @@ list = [int(x) for x in list]
 low = int(input('Input low : '))
 high = int(input('Input high : '))
 
-
 if low < list[0]:
     list.insert(0, low-1)
 if high > list[-1]:
